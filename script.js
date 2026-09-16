@@ -3,18 +3,20 @@ const nav=document.querySelector(".nav");
 toggle?.addEventListener("click",()=>{const open=nav.classList.toggle("open");toggle.setAttribute("aria-expanded",open)});
 document.querySelectorAll(".nav a").forEach(a=>a.addEventListener("click",()=>nav.classList.remove("open")));
 document.getElementById("year").textContent=new Date().getFullYear();
+
 const galleryImages = [
   "images/IMG_20251117_124315.jpg",
+  "images/IMG_20260106_143207.jpg",
+  "images/photo1.jpg",
   "images/photo2.jpg",
-  "images/photo3.jpg",
-  "images/photo4.jpg"
+  "images/photo3.jpg"
 ];
-
 const galleryAlts = [
-  "Moment convivial de l'Amicale Bézenet",
-  "Marche de l'Amicale Bézenet",
-  "Sortie de l'Amicale Bézenet",
-  "Randonnée de l'Amicale Bézenet"
+  "Photo de l'Amicale Bézenet",
+  "Photo de l'Amicale Bézenet",
+  "Photo de l'Amicale Bézenet",
+  "Photo de l'Amicale Bézenet",
+  "Photo de l'Amicale Bézenet"
 ];
 
 let currentPhoto = 0;
