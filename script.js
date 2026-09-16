@@ -6,7 +6,7 @@ document.getElementById("year").textContent=new Date().getFullYear();
 
 const galleryImages = [
   "images/IMG_20251117_124315.jpg",
-  "images/IMG_20260106_143207.jpg",
+  "images/",
   "images/photo1.jpg",
   "images/photo2.jpg",
   "images/photo3.jpg"
